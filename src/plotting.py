@@ -155,8 +155,16 @@ def plot_amount_violin(
     df_clip = df[df["Amount"] < threshold].copy()
     df_clip["Clase"] = df_clip["Class"].map(class_labels)
     fig, ax = plt.subplots(figsize=(7, 6))
-    sns.violinplot(data=df_clip, x="Clase", y="Amount", hue="Clase",
-                   palette=_PALETTE, inner="box", legend=False, ax=ax)
+    sns.violinplot(
+        data=df_clip,
+        x="Clase",
+        y="Amount",
+        hue="Clase",
+        palette=_PALETTE,
+        inner="box",
+        legend=False,
+        ax=ax,
+    )
     ax.set_title(f"Violin plot de Amount por clase (Amount < {threshold:,.0f} €)")
     plt.tight_layout()
     plt.savefig(output_path, dpi=150)
