@@ -1,0 +1,12 @@
+data:
+  file: creditcard.csv
+
+model:
+  mi_sample_size: 50000
+
+visualization:
+  boxplot_ylim: [-30, 30]
+  outlier_threshold_amount: 2000
+  class_labels:
+    0: "Legítima"
+    1: "Fraude"

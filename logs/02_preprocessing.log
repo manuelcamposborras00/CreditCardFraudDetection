@@ -1,0 +1,18 @@
+[PREP] Shape inicial: (284807, 31)
+[PREP] Duplicados eliminados: 1081
+[PREP] Features creadas: Amount_log, Hour, Is_night
+[PREP] Features finales: V1-V28 + Amount_log + Hour + Is_night = 31 features
+[PREP] Distribución Amount_log: media=3.15  std=1.66
+[PREP] Transacciones nocturnas: 54185 (19.1%)
+[PREP] Fraudes nocturnos: 150 (31.7% de los fraudes)
+[PREP] Guardado: data/creditcard_cleaned.csv
+[PREP] Guardado: data/feature_names.json
+[PREP] Shape inicial: (284807, 31)
+[PREP] Duplicados eliminados: 1081
+[PREP] Features creadas: Amount_log, Hour, Is_night
+[PREP] Features finales: V1-V28 + Amount_log + Hour + Is_night = 31 features
+[PREP] Distribución Amount_log: media=3.15  std=1.66
+[PREP] Transacciones nocturnas: 54185 (19.1%)
+[PREP] Fraudes nocturnos: 150 (31.7% de los fraudes)
+[PREP] Guardado: data/creditcard_cleaned.csv
+[PREP] Guardado: data/feature_names.json

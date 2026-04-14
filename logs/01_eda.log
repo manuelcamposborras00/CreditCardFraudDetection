@@ -1,0 +1,18 @@
+[EDA] Shape: (284807, 31)
+[EDA] Clase 0 (legítima): 284315  (99.827%)
+[EDA] Clase 1 (fraude):   492  (0.173%)
+[EDA] Ratio desbalanceo: 578:1
+[EDA] Valores nulos: 0
+[EDA] Amount — media legítima: 88.29 €   media fraude: 122.21 €
+[EDA] Time — rango: [0, 172792] segundos
+[EDA] Features más discriminativas (|Δμ|/σ): V17, V14, V12, V10, V16 ...
+[EDA] Figuras guardadas: 8
+[EDA] Shape: (284807, 31)
+[EDA] Clase 0 (legítima): 284315  (99.827%)
+[EDA] Clase 1 (fraude):   492  (0.173%)
+[EDA] Ratio desbalanceo: 578:1
+[EDA] Valores nulos: 0
+[EDA] Amount — media legítima: 88.29 €   media fraude: 122.21 €
+[EDA] Time — rango: [0, 172792] segundos
+[EDA] Features más discriminativas (|Δμ|/σ): V17, V14, V12, V10, V16 ...
+[EDA] Figuras guardadas: 8

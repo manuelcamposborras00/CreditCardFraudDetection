@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(kaggle --version)",
+      "Bash(pip show:*)",
+      "Bash(python -c \"import kaggle\")",
+      "Bash(pip install:*)",
+      "Bash(mkdir -p data logs results src)",
+      "Bash(mv creditcard.csv data/)",
+      "Bash(python src/01_eda.py)",
+      "Bash(python src/02_preprocessing.py)",
+      "Bash(python main.py)"
+    ]
+  }
+}
