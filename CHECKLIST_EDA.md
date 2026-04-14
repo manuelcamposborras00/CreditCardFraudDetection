@@ -10,11 +10,11 @@ Este documento detalla los pasos de verificación manual y técnica necesarios p
 ## 2. Garantía de Calidad (QA)
 - [X] **Tests Unitarios:** Ejecutar `pytest tests/test_plotting.py -v`. Deben pasar los 7 tests de visualización.
 - [X] **Tests de Integración:** Ejecutar `pytest tests/test_integration.py -v`. Debe validar el flujo completo YAML -> Pydantic -> Pipeline -> Figuras.
-- [ ] **Acciones de GitHub:** Verificar que el flujo de CI en el repositorio (GitHub Actions) está en verde.
+- [X] **Acciones de GitHub:** Verificar que el flujo de CI en el repositorio (GitHub Actions) está en verde.
 
 ## 3. Ejecución con Datos Reales
-- [ ] **Dataset Original:** Confirmar la presencia de `data/creditcard.csv` (284,807 filas).
-- [ ] **Configuración de Producción:** Revisar `config.yaml`. Asegurar que `mi_sample_size` es adecuado (ej. `50000`) para un balance entre velocidad y precisión.
+- [X] **Dataset Original:** Confirmar la presencia de `data/creditcard.csv` (284,807 filas).
+- [X] **Configuración de Producción:** Revisar `config.yaml`. Asegurar que `mi_sample_size` es adecuado (ej. `50000`) para un balance entre velocidad y precisión.
 - [ ] **Pipeline:** Ejecutar `python src/01_eda.py` y verificar que termina sin excepciones.
 
 ## 4. Auditoría de Salidas (Inspección Visual)
